@@ -12,7 +12,7 @@ provider "aws" {
 }
 
 variable "cluster_name" {
-  default = "demo"
+  default = "production"
 }
 
 variable "cluster_version" {
